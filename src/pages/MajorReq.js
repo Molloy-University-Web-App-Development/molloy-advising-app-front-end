@@ -5,6 +5,7 @@ import MajorReqItem from "../components/MajorReqItem";
 export default function MajorReq() {
   return (
     <>
+      <h1 id="compSciMinor">Welcome to the future.</h1>
       <MajorReqItem
         MajorName="Computer Science Minor"
         Dept="Mathematics and Computer Studies"

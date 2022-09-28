@@ -1,10 +1,11 @@
 {
-  "name": "week-2-task-major-requirements-kevin-hart-forked",
+  "name": "week-3-task-major-requirements-kevin-hart-forked",
   "version": "1.0.0",
   "description": "from https://alvaromontoro.com/files/resume-classic.html - formerly priceless-dawn-nloyb7",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "components": "0.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "6.4.0",

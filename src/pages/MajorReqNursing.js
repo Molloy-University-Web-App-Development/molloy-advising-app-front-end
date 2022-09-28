@@ -3,6 +3,7 @@ import MajorReqItem from "../components/MajorReqItem";
 export default function MajorReqNursing() {
   return (
     <>
+      <h1 id="nursingMajor">Welcome to bedside manners.</h1>
       <MajorReqItem
         MajorName="Nursing Major"
         Dept="The Barbara H. Hagan School of Nursing"
