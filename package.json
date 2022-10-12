@@ -1,13 +1,13 @@
 {
-  "name": "week-2-task-matthew-holloway",
+  "name": "react-router-matthew-holloway-week-3",
   "version": "1.0.0",
-  "description": "from https://alvaromontoro.com/files/resume-classic.html - formerly priceless-dawn-nloyb7",
+  "description": "Formerly brave-bash-izbi7b",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-router-dom": "6.4.0",
+    "react-router-dom": "6.3.0",
     "react-scripts": "4.0.0"
   },
   "devDependencies": {
