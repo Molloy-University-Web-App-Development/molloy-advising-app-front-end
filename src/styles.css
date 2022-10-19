@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Emblema One";
+  src: url("/fonts/EmblemaOne-Regular.ttf");
+}
+h1 {
+  font-family: "Emblema One", sans-serif;
+  font-size: 220%;
+  rgba(190, 80, 120);
+}
+@font-face {
+  font-family: "Verdana";
+  src: url("/fonts/verdana-Regular.ttf");
+}
+h2 {
+  font-weight: normal;
+  font-family: "verdana";
+  font-size: 130%;
+} 
+
+p{ 
+  font-family:"verdana"; sans-serif;
+}
+
+li {
+  font-family: "verdana"; sans-serif;
+}
+br { 
+  font-size: italic;
+  
+}
