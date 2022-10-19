@@ -12,7 +12,7 @@ export default function DataStructures() {
         the space and time complexity of the approaches. Topics include stacks,
         queues, trees, hash maps, sets, bags and graphs.
       </p>
-      <h2>Credits</h2>4<h2>Distribution</h2>
+      <h2 id="credit">Credits</h2>4<h2>Distribution</h2>
       Mathematics/Computer Studies
       <h2>Offered</h2>
       Spring

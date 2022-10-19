@@ -2,3 +2,29 @@
   font-family: sans-serif;
   text-align: center;
 }
+body {
+  color: rgb(102, 74, 3);
+}
+.courses {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2,
+h3 {
+  color: maroon;
+}
+h1 {
+  color: maroon;
+  font-size: 300%;
+}
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+.menu {
+  text-align: left;
+}
+.main {
+  text-align: center;
+}

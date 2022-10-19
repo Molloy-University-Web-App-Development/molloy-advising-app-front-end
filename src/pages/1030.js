@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
-
+import Header from "../components/Header";
+import { HashLink } from "react-router-hash-link";
 export default function VisualProgramming() {
   return (
     <>
+      <Header></Header>
       <h1>CSC 1030 Visual Programming</h1>
       <p>
         (also CIS 1030; formerly CIS/CSC 103; Visual Basic-Object Oriented
@@ -19,7 +21,7 @@ export default function VisualProgramming() {
         visual blocks generate actual code and learn how to write some of their
         own in a friendly beginner language such as Python.
       </p>
-      <h2>Credits</h2>3<h2>Distribution</h2>
+      <h2 id="credit">Credits</h2>3<h2>Distribution</h2>
       Mathematics/Computer Studies
       <h2>Offered</h2>
       Spring
