@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+h2,
+h1,
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkred;
+}
+th {
+  color: rgb(133, 108, 47);
+}
+#Logo{
+  
+}
