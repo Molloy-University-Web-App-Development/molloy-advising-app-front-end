@@ -5,7 +5,7 @@ export default function CalculusforScienceandBusiness() {
     <>
       <h1>MAT 2200 Calculus for Science and Business</h1>
       <p>(formerly MAT 220; MAT 120)</p>
-      <p>
+      <p class="summary">
         note that this minor does not suffice for an area of concentration in
         the Interdisciplinary Studies major (described in the Interdisciplinary
         Studies section). Powered by SmartCatalog MAT 2200 Calculus for Science

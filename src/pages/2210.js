@@ -7,7 +7,7 @@ export default function CalculusI() {
       <p>
         (formerly MAT 221; MAT 125; formerly Analytic Geometry and Calculus I)
       </p>
-      <p>
+      <p class="summary">
         Linear, exponential, logarithmic, power, polynomial and rational
         functions; inverse functions; trigonometric functions; limits and
         continuity; derivative definition and formulas; maxima and minima,

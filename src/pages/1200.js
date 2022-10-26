@@ -5,7 +5,7 @@ export default function FunctionalProgrammingI() {
     <>
       <h1>CSC 1200 Functional Programming I</h1>
       <p>(formerly CSC 120; CSC 111)</p>
-      <p>
+      <p class="summary">
         This course provides an accelerated introduction to computer programming
         in scripting language, such as JavaScript, Python or Ruby using a
         functional programming style. The emphasis of the course will be on

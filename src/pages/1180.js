@@ -5,7 +5,7 @@ export default function PreCalculus() {
     <>
       <h1>MAT 1180 Pre-Calculus</h1>
       <p>(formerly MAT 118)</p>
-      <p>
+      <p class="summary">
         This course is for the mathematics major or students who meet the
         prerequisites listed below. The central theme of this course is a
         rigorous study of functions from an analytic, numerical, graphical and

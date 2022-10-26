@@ -5,7 +5,7 @@ export default function DataStructures() {
     <>
       <h1>CSC 2440 Data Structures</h1>
       <p>(formerly CSC 244; CSC 144)</p>
-      <p>
+      <p class="summary">
         Complementing CSC 2430, this course will have students implement
         abstract data types and derive solutions to a number of algorithmic
         problems, choosing the appropriate data structures to use and analyzing
