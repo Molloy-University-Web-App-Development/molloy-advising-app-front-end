@@ -4,6 +4,7 @@
 }
 body {
   color: rgb(102, 74, 3);
+  text-align: center;
 }
 .courses {
   font-family: Arial, Helvetica, sans-serif;
@@ -27,4 +28,36 @@ h1 {
 }
 .main {
   text-align: center;
+}
+.courses {
+  display: table;
+  list-style: none;
+}
+.summary {
+  border-color: maroon;
+  border: solid;
+  border-radius: 10px;
+  padding: 70px;
+}
+@media screen and (min-width: 1150px) {
+  .courses {
+    padding-top: 20px;
+    margin-left: 300px;
+    border: solid;
+    border-radius: 0px;
+  }
+  .summary {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .summary {
+    background-image: url("images/lion.png");
+    background-repeat: no-repeat;
+    padding-left: 300px;
+  }
+  .courses {
+    margin-left: 700px;
+  }
 }

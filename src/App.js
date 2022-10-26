@@ -50,7 +50,7 @@ export default function App() {
                   <h2 id="first">Requirements</h2>
                   <h3>Required courses</h3>
 
-                  <ul class="courses">
+                  <ul>
                     <li class="courses">
                       <Link to="VisualProgramming">CSC 1030</Link> | Visual
                       Programming | 3
@@ -80,7 +80,7 @@ export default function App() {
                   </strong>
 
                   <h3 id="second">Complete either (3-4 Credits)</h3>
-                  <ul class="courses">
+                  <ul>
                     <li class="courses">
                       <Link to="PreCalculus">MAT 1180</Link> | Pre-Calculus | 3
                     </li>

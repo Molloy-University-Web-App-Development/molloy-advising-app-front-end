@@ -1,12 +1,5 @@
 import { HashLink } from "react-router-hash-link";
-export default function Header({
-  name,
-  dept,
-  position,
-  startDate,
-  endDate,
-  children
-}) {
+export default function Header({ Previous, Next }) {
   return (
     <nav class="menu">
       <ul class="menu">
@@ -21,6 +14,9 @@ export default function Header({
         </li>
         <li class="menu">
           <HashLink to="#credit">credit</HashLink>
+        </li>
+        <li>
+          <HashLink to="/#second">Next Course</HashLink>
         </li>
       </ul>
     </nav>

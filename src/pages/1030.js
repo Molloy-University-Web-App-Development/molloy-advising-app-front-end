@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import { HashLink } from "react-router-hash-link";
+import Lion from "../Images/lion.png";
 export default function VisualProgramming() {
   return (
     <>
@@ -10,7 +11,7 @@ export default function VisualProgramming() {
         (also CIS 1030; formerly CIS/CSC 103; Visual Basic-Object Oriented
         Programming I; Programming in Visual Basic)
       </p>
-      <p>
+      <p class="summary">
         An introduction to computer programming through the use of drag-and-drop
         code blocks. The purpose of the course is to provide an introduction to
         programming logic and algorithmic problem solving strategies for
