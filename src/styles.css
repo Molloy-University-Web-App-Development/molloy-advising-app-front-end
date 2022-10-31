@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 14px;
+}
+
+h2,
+h1,
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  color: darkred;
+}
+th {
+  color: rgb(133, 108, 47);
+}
+
+.paragraph {
+  border-style: solid;
+  border-color: rgb(133, 108, 47);
+  width: auto;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+#molloylogo {
+  max-width: 7%;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+#mulogo {
+  max-width: 25%;
+}
+
+@media screen( min-device-width:480px) {
+  .paragraph {
+    margin-right: 250px;
+    padding-left: 80px;
+  }
+}
