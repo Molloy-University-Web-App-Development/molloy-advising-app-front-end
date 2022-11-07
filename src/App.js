@@ -94,7 +94,9 @@ export default function App() {
                       <Link to="CalculusI">MAT 2210</Link> | Calculus I | 4
                     </li>
                   </ul>
-                  <p>Total Credit Hours: 22-24</p>
+                  <p>
+                    Total Credit Hours: <span id="hours">22-24</span>
+                  </p>
 
                   <p>
                     Please note that this minor does not suffice for an area of
