@@ -37,7 +37,36 @@ h1 {
   border-color: maroon;
   border: solid;
   border-radius: 10px;
-  padding: 70px;
+  padding: 60px;
+}
+
+nav.menu {
+  border: solid;
+  width: 200px;
+  margin-left: 20px;
+  margin-right: auto;
+  padding: 0, 10, 10, 10;
+}
+.menu {
+  list-style: none;
+}
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: maroon;
+  background-color: yellow;
+  border-color: rgb(102, 74, 3);
+  border: thin solid;
+}
+.courses:hover {
+  font-weight: bold;
+}
+#hours:hover {
+  color: maroon;
+  font-size: 1.25em;
+  font-weight: bold;
 }
 @media screen and (min-width: 1150px) {
   .courses {
@@ -51,6 +80,7 @@ h1 {
     margin-right: 250px;
   }
 }
+
 @media screen and (min-width: 1500px) {
   .summary {
     background-image: url("images/lion.png");
