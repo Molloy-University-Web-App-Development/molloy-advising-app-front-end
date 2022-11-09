@@ -1,0 +1,123 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 14px;
+}
+
+h2,
+h1,
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  color: darkred;
+}
+th {
+  color: rgb(133, 108, 47);
+}
+h2 {
+  font-size: 125%;
+}
+h1 {
+  font-size: 160%;
+}
+
+.paragraph {
+  border-style: solid;
+  border-color: rgb(133, 108, 47);
+  width: auto;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+#molloylogo {
+  max-width: 7%;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+#mulogo {
+  max-width: 25%;
+}
+
+@media screen( min-device-width:480px) {
+  .paragraph {
+    margin-right: 250px;
+    padding-left: 80px;
+  }
+}
+#csc {
+  border-style: solid;
+  border-color: darkgrey;
+  border-radius: 15px;
+  width: 400px;
+  background-image: url(images/computerimage.jpg);
+  background-size: 75px;
+  background-repeat: no-repeat;
+  background-position-x: 300px;
+  background-position-y: -2px;
+}
+#math {
+  border-style: solid;
+  border-color: darkgrey;
+  border-radius: 15px;
+  width: 400px;
+  background-image: url(images/math.jpg);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position-x: 320px;
+}
+
+#math a:visited {
+  color: lightcoral;
+}
+
+#csc a:visited {
+  color: lightcoral;
+}
+a:link {
+  color: maroon;
+}
+a:visited {
+  color: maroon;
+}
+
+#math a:hover {
+  color: blue;
+}
+
+#csc a:hover {
+  color: blue;
+}
+
+.copyright {
+  font-size: 80%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+nav {
+  background-color: rgb(128, 0, 50);
+}
+
+nav a:link,
+nav a:visited,
+nav a:focus,
+nav a:hover,
+nav a:active {
+  color: rgb(155, 135, 60);
+  border: 0px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: black;
+}
+
+a {
+  transition: 1500ms;
+}
