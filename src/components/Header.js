@@ -15,7 +15,7 @@ export default function Header({ Previous, Next }) {
         <li class="menu">
           <HashLink to="#credit">credit</HashLink>
         </li>
-        <li>
+        <li class="menu">
           <HashLink to="/#second">Next Course</HashLink>
         </li>
       </ul>

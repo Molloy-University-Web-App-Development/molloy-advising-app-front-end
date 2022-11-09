@@ -17,13 +17,13 @@ export default function App() {
   return (
     <>
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route
             exact
             path="/"
             element={
               <>
-                <Header></Header>
                 <h1 class="main" id="tittle">
                   Hello StackBlitz!
                 </h1>
@@ -73,7 +73,13 @@ export default function App() {
                       Structures | 4
                     </li>
                   </ul>
-
+                  <figure class="figure1">
+                    <img src="../images/lion.png" alt="molloy logo red" />
+                    <figcaption>
+                      Molloy College is accredited by the Middle States
+                      Commission on Higher Education
+                    </figcaption>
+                  </figure>
                   <strong>
                     Complete 3-4 Credits of CSC 2000/3000-level or CIS 2240 or
                     CIS 3390 (3-4 Credits)
@@ -100,8 +106,9 @@ export default function App() {
 
                   <p>
                     Please note that this minor does not suffice for an area of
-                    concentration in the <cite>Interdisciplinary Studies</cite>{" "}
-                    major (described in the Interdisciplinary Studies section).
+                    concentration in the{" "}
+                    <span class="italic">Interdisciplinary Studies</span> major
+                    (described in the Interdisciplinary Studies section).
                   </p>
                 </>
               </>
