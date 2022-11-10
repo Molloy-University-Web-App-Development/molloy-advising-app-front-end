@@ -1,0 +1,153 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  color: rgb(102, 74, 3);
+  text-align: center;
+}
+.courses {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#tittle {
+  margin-top: 150px;
+}
+h2,
+h3 {
+  color: maroon;
+}
+h1 {
+  color: maroon;
+  font-size: 300%;
+}
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+.italic {
+  font-style: italic;
+}
+.menu {
+  text-align: left;
+}
+.main {
+  text-align: center;
+}
+.courses {
+  display: table;
+  list-style: none;
+}
+.figure1 {
+
+  border: thin solid;
+  
+}
+figcaption {
+  background-color: maroon;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    
+}
+
+nav {
+  /*background-color: #333;*/
+  background-color: rgba(128, 0, 0, 0.9);
+}
+
+nav a:link,
+nav a:visited,
+nav a:focus,
+nav a:active {
+  color: rgb(102, 74, 3);
+  border: 0;
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+nav li {
+  transition: 500ms;
+}
+li.menu a:hover {
+  color: maroon;
+  transition: 500ms;
+}
+.summary {
+  border-color: maroon;
+  border: solid;
+  border-radius: 10px;
+  padding: 60px;
+}
+a {
+  transition: 2000ms;
+}
+nav.menu {
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  border: solid;
+  
+}
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+}
+ul.menu {
+  list-style: none;
+  padding: 0;
+}
+li.menu {
+  padding: 15px;
+}
+a:visited {
+  color: green;
+}
+
+a:hover {
+  transition: 2000ms;
+  color: maroon;
+  background-color: yellow;
+  border-color: rgb(102, 74, 3);
+  border: thin solid;
+}
+.courses:hover {
+  font-weight: bold;
+}
+#hours:hover {
+  color: maroon;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+@media screen and (min-width: 1150px) {
+  .figure1{
+    float: right;
+  }
+  .courses {
+    padding-top: 20px;
+    margin-left: 300px;
+    border: solid;
+    border-radius: 0px;
+  }
+  .summary {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .summary {
+    background-image: url("images/lion.png");
+    background-repeat: no-repeat;
+    padding-left: 300px;
+  }
+  .courses {
+    margin-left: 700px;
+  }
+}
