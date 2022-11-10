@@ -1,0 +1,87 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  font-size: small;
+  font-family: Verdana, Arial, sans-serif;
+  line-height: 2em;
+}
+
+h3 {
+  font-size: medium;
+  color: black;
+}
+
+h1 {
+  text-decoration: underline;
+  margin-top: 60px;
+}
+
+h1,
+a:link {
+  color: rgb(148, 39, 56);
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  background-color: rgb(179, 179, 62);
+  transition: 500ms;
+}
+
+#note {
+  border: thick solid rgb(148, 39, 56);
+  padding: 5px;
+  margin: 5px;
+}
+
+@media print {
+  #note {
+    background-image: url(https://media.giphy.com/media/IB9foBA4PVkKA/giphy.gif);
+  }
+}
+
+nav {
+  background-color: rgb(148, 39, 56, 0.5);
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav li {
+  padding: 15px;
+  transition: 500ms;
+}
+
+nav li:hover {
+  background-color: rgb(179, 179, 62, 0.8);
+  transition: 500ms;
+}
+
+nav ul {
+  font-size: large;
+  list-style-type: none;
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+  figure {
+    float: right;
+  }
+}
+
+#welcome {
+  padding-top: 50px;
+}
