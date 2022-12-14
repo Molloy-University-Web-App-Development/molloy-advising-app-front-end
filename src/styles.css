@@ -1,0 +1,320 @@
+@font-face {
+  font-family: "Rubik";
+  src: url(fonts/Rubik-Regular.ttf);
+}
+
+#fartcolor {
+  color: 	rgba(255, 228, 73, 100);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  font-family: "Rubik";
+  color: rgba(102, 74, 3, 100);
+  padding: 0px;
+  margin: 0px;
+}
+
+.title {
+  text-align: center;
+}
+.socialcenter{
+  position: flex;
+}
+div.container {
+  text-align: center;
+}
+
+ul.main {
+  display: inline-block;
+  text-align: left;
+}
+
+#socialtabs ul {
+  display: inline-block;
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+  height: 80%;
+}
+.mainbody {
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.mainpagebox {
+  padding-left: 400px;
+  padding-right: 400px;
+  display: flex;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.mainpagebox div {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0px 0px 20px 0px;
+  border: 2px solid;
+}
+
+#undergrad ul {
+  list-style-type: none;
+}
+
+#undergrad {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.undergradheader {
+  background-color: goldenrod;
+  padding: 10px;
+}
+#undergrad #available {
+  background-color: maroon;
+  color: #fff;
+}
+
+#undergrad #unavailable {
+  background-color: maroon;
+  color: #fff;
+}
+
+.mainpagebox img {
+  margin: 0px;
+  padding: 0px;
+}
+.campus {
+  width: 100%;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+h2,
+h3 {
+  color: maroon;
+}
+h1 {
+  color: maroon;
+  font-size: 300%;
+}
+figcaption {
+  background-color: maroon;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 10px;
+  text-align: center;
+  
+}
+a {
+  transition: 2000ms;
+}
+figure{
+  padding:0;
+  margin:0;
+  border-radius: 0;
+  width: 219px;
+}
+a:visited {
+  color: green;
+}
+/*
+a:hover {
+  transition: 2000ms;
+  color: maroon;
+  background-color: yellow;
+  border-color: rgb(102, 74, 3);
+  border: thin solid;
+}
+*/
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav {
+  background-color: rgba(128, 0, 0, 0.9);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.footer {
+  position: static;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(10, 10, 10, 0);
+  color: #fff;
+  background-color: rgba(23, 23, 23, 100);
+  position: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 200px;
+  padding-top: 50px;
+  margin-bottom: 0px;
+  width: 100%;
+  top: 0%;
+}
+
+.footer ul {
+  list-style-type: none;
+  position: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+
+div.socialtabs{
+  text-align:center;
+}
+
+ul#socialcenter {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  
+}
+
+#InLogo {
+  background: #981e32;
+  width: 50px;
+  height: 50px;
+}
+
+nav a:link,
+nav a:visited,
+nav a:focus,
+nav a:active {
+  color: rgb(211, 153, 8);
+  border: 0;
+}
+
+nav a:hover {
+  transition: 2000ms;
+  color: maroon;
+  background-color: yellow;
+  border-color: rgb(102, 74, 3);
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+nav li {
+  transition: 500ms;
+}
+li.menu a:hover {
+  color: maroon;
+  transition: 500ms;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+#hours:hover {
+  color: maroon;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.courses {
+  display: table;
+  list-style: none;
+}
+.courses:hover {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+.main {
+  text-align: center;
+  justify-items: center;
+}
+
+.figure1 {
+  border: thin solid;
+}
+.summary {
+  border-color: maroon;
+  border: solid;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.menu {
+  text-align: left;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav.menu {
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  border: solid;
+}
+ul.menu {
+  list-style: none;
+  padding: 0;
+}
+li.menu {
+  padding: 15px;
+}
+
+
+@media screen and (min-width: 1150px) {
+  
+  .figure1 {
+    float: right;
+    position: relative;
+    right: 100px;
+    bottom:290px;
+
+  }
+  .courselist {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  li.courses {
+    padding: 10px;
+    border: solid;
+    border-radius: 0px;
+    margin: auto;
+  }
+  .summary {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .summary {
+    background-image: url("images/lion.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-left: 300px;
+  }
+
+.bold {
+  font-weight: bold;
+}

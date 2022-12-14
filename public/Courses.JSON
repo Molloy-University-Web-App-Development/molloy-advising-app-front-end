@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Visual Programming",
+    "code":"CSC 1030",
+    "bio": "also CIS 1030; formerly CIS/CSC 103; Visual Basic-Object Oriented Programming I; Programming in Visual Basic",
+    "summary": "An introduction to computer programming through the use of drag-and-drop code blocks. The purpose of the course is to provide an introduction to programming logic and algorithmic problem solving strategies for students with little to no prior programming experience. Students will learn how to use the basic programming constructs such as variables, conditional statement, lists, loops and functions to solve problems by assembling and customizing blocks of code. They will also see how the visual blocks generate actual code and learn how to write some of their own in a friendly beginner language such as Python.",
+    "credits": "3",
+    "prerequisite": "none",
+    "distribution": "Mathematics/Computer Studies",
+    "offered": "Spring"
+  },
+  {
+    "name": "Functional Programming I",
+    "code":"CSC 1200",
+    "bio": "formerly CSC 120; CSC 111",
+    "summary": "This course provides an accelerated introduction to computer programming in scripting language, such as JavaScript, Python or Ruby using a functional programming style. The emphasis of the course will be on developing logical and algorithmic problem solving skills. Students will learn how to state problems precisely and reason about the correctness of their code. Topics include function composition, basic string processing, Booleans and truth tables, conditional statements, loops implemented by backward and forward tail recursion, Arrays and higher-order functions. Students will apply their knowledge to the partial development of an open source project, such as a spreadsheet web application.",
+    "credits": "3",
+    "prerequisite": "SAT mathematics score of at least 540, CIS 1030/CSC 1030 or approval from the Chairperson",
+    "distribution": "Mathematics/Computer Studies",
+    "offered": "Fall"
+  },
+  {
+    "name": "Object-Oriented Programming and Design",
+    "code":"CSC 2350",
+    "bio": "also CIS 2350; formerly CIS/CSC 235 Introduction to Web Scripting; CIS 135; Java-Object Oriented Programming",
+    "summary": "N/A",
+    "credits": "3",
+    "prerequisite": "none",
+    "distribution": "Mathematics/Computer Studies",
+    "offered": "Fall"
+  },
+  {
+    "name": "Data Structures",
+    "code":"CSC 2440",
+    "bio": "formerly CSC 244; CSC 144",
+    "summary": "Complementing CSC 2430, this course will have students implement abstract data types and derive solutions to a number of algorithmic problems, choosing the appropriate data structures to use and analyzing the space and time complexity of the approaches. Topics include stacks, queues, trees, hash maps, sets, bags and graphs.",
+    "credits": "4",
+    "prerequisite": "none",
+    "distribution": "Mathematics/Computer Studies",
+    "offered": "Spring"
+  },
+  {
+    "name": "Pre-Calculus",
+    "code":"MAT 1180",
+    "bio": "formerly MAT 118",
+    "summary": "This course is for the mathematics major or students who meet the prerequisites listed below. The central theme of this course is a rigorous study of functions from an analytic, numerical, graphical and verbal approach. It includes linear, polynomial, rational, exponential, logarithmic and trigonometric functions. Also included is the study of systems of equations and inequalities, sequences, series and analytic geometry.",
+    "credits": "3",
+    "prerequisite": "none",
+    "distribution": "Mathematics/Computer Studies",
+    "offered": "Spring"
+  },
+  {
+    "name": "Calculus for Science and Business",
+    "code":"MAT 2200",
+    "bio": "formerly MAT 220; MAT 120",
+    "summary": "note that this minor does not suffice for an area of concentration in the Interdisciplinary Studies major (described in the Interdisciplinary Studies section). Powered by SmartCatalog MAT 2200 Calculus for Science and Business close (formerly MAT 220; MAT 120) Limits and continuity; derivatives maxima and minima; antiderivatives; definite integral; fundamental theorem of calculus; techniques of integration. NOTE: Graphing Calculator Required.",
+    "credits": "3",
+    "prerequisite": "Not open to students who have passed MAT 2210.",
+    "distribution": "Mathematics/Computer Studies",
+    "offered": "Not Offered Every Year"
+  },
+  {
+    "name": "Calculus I",
+    "code":"MAT 2210",
+    "bio": "formerly MAT 221; MAT 125; formerly Analytic Geometry and Calculus I",
+    "summary": "Linear, exponential, logarithmic, power, polynomial and rational functions; inverse functions; trigonometric functions; limits and continuity; derivative definition and formulas; maxima and minima, concavity, curve sketching; definite and indefinite integrals; applications.",
+    "credits": "3",
+    "prerequisite": "None",
+    "distribution": "Mathematics/Computer Studies",
+    "offered": "Fall"
+  }
+]
+  
