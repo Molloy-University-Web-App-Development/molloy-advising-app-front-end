@@ -1,0 +1,95 @@
+[
+  {
+    "date": "01-02",
+    "day": "Monday",
+    "description": ["New Year's Day (Observed)—College closed."]
+  },
+  {
+    "date": "01-03",
+    "day": "Tuesday",
+    "description": [
+      "Payment of tuition due for advance registered students for Spring."
+    ]
+  },
+  {
+    "date": "01-13",
+    "day": "Friday",
+    "description": [
+      "Award date of January degrees and certificates. No ceremony. (All grades for incomplete or missing coursework must be submitted by this date in order for degrees to be awarded with this date.)"
+    ]
+  },
+  {
+    "date": "01-16",
+    "day": "Monday",
+    "description": [
+      "Winter Intersession grades due to the Office of the Registrar by 12:00 noon."
+    ]
+  },
+  {
+    "date": "01-16",
+    "day": "Monday",
+    "description": ["Martin Luther King, Jr. Day (Observed)—College closed."]
+  },
+  {
+    "date": "01-17",
+    "day": "Tuesday",
+    "description": ["Classes begin for Spring"]
+  },
+  {
+    "date": "01-23",
+    "day": "Monday",
+    "description": [
+      "Last date to Add/Drop a course. Online Registration Open —Office of the Registrar. Full payment of tuition and fees required. (Students with classes scheduled to meet once-a-week for the first time on January 23 will have until January 24 to correct their schedules if needed.)"
+    ]
+  },
+  {
+    "date": "01-24",
+    "day": "Tuesday",
+    "description": [
+      "Withdrawal Period Begins: A grade of 'WA' will be assigned from January 24, until March 8 or the midpoint of subterms. From March 9 to May, 5 a 'WA' or 'WF', grade may be assigned. ('WA' grades are not computed in GPA. 'WF' Grades are computed as failure in 'GPA'.) Faculty enter withdrawal grades online for their courses with Last Date of Attendance, if requested or if a student stops attending a class. "
+    ]
+  },
+  {
+    "date": "01-24",
+    "day": "Tuesday",
+    "description": [
+      "Registration for auditors, PRIME (age 62 and over) and alumni auditors through the Office of the Registrar. MILL members make arrangements through the Director of Special Programs."
+    ]
+  },
+  {
+    "date": "01-25",
+    "day": "Wednesday",
+    "description": [
+      "Incompletes for Fall 2022 and Winter Intersession 2023 become 'F.'"
+    ]
+  },
+  {
+    "date": "02-01",
+    "day": "Wednesday",
+    "description": [
+      "Deadline for submitting online health and accident insurance waivers for new full-time undergraduate students."
+    ]
+  },
+  {
+    "date": "02-01",
+    "day": "Wednesday",
+    "description": ["Last day to declare a course Pass/Fail."]
+  },
+  {
+    "date": "02-20",
+    "day": "Monday",
+    "description": ["Presidents’ Day—No classes."]
+  },
+  {
+    "date": "02-22",
+    "day": "Wednesday",
+    "description": ["Monday classes held on this day."]
+  },
+  {
+    "date": "03-01",
+    "day": "Wednesday",
+    "description": [
+      "Deadline for filing application for graduation for August 2023."
+    ]
+  }
+]
