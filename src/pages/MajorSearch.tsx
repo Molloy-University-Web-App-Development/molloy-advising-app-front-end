@@ -22,16 +22,24 @@ export default function MajorSearch() {
   );
 }
 
-function MajorButton (){
+export default function MajorButton (){
   const [selectedMajor, setSelectedMajor] = useState('computer science');
 
   return (
-    <select
+    <>
+  <label>
+      Select a Major:
+      <select
     value={selectedMajor}
     onChange={e => setSelectedMajor(e.target.value)}
     >
       <option value="nursing">Nursing</option>
       <option value="computer science">Computer Science</option>
       <option value="biology">Biology</option>
+    </select>
+  </label>
+  <hr />
+  <p>Your major: {selectedMajor}</p>
+  </>
   );
 }
