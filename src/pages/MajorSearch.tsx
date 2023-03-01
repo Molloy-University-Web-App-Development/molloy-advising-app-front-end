@@ -1,5 +1,6 @@
 import logo from "../assets/mapp.jpg";
 import React, { useState } from 'react';
+import courseData from './courses';
 
 export default function MajorSearch() {
   const [count, setCount] = useState(0);
@@ -42,4 +43,24 @@ export default function MajorButton (){
   <p>Your major: {selectedMajor}</p>
   </>
   );
+}
+
+export default function App() { 
+  //const courseData = [{'majorCode': 'CSC', 'name': 'Computer Science 101'},{'majorCode': 'ACC', 'name': 'Accounting 101'}];
+  const majorRequirementData = [{'majorCode': 'CSC'},{'majorCode': 'ACC'}];
+  let offeredCourses = []
+  
+  for (let i = 0; i < courseData.length; i++){
+    for (let j = 0; j < majorRequirementData.length; j++){
+       if (courseData[i].majorCode === majorRequirementData[j].majorCode){
+         offeredCourses.push(courseData[i].name)
+       }
+    }
+  }
+  return offeredCourses;
+}
+
+function majorRequirementCourses(courseData, majorRequirementsData, major) {
+
+
 }
