@@ -1,12 +1,12 @@
 import "./styles.css";
-import MajorSearch from "./pages/MajorSearch";
+import MajorSearchButton from "./pages/MajorSearchButton";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<MajorSearch />} />
+        <Route path="/" element={<MajorSearchButton />} />
       </Routes>
     </BrowserRouter>
   );
