@@ -48,16 +48,12 @@ export function CourseData() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    let ignore = false;
-    setData(null);
-    fetchData("courses.json").then((result) => {
-      if (!ignore) {
-        setData(result);
-      }
-    });
-    return () => {
-      ignore = true;
+    const fetchData = async () => {
+      const response = await fetch("courses.json");
+      const newData = await response.json();
+      setData(newData);
     };
+    fetchData();
   }, []);
 
   if (data) {
@@ -71,16 +67,12 @@ export function MajorRequirementData() {
   const [data, setRequirementData] = useState(null);
 
   useEffect(() => {
-    let ignore = false;
-    setRequirementData(null);
-    fetchRequirementData("req-courses.json").then((result) => {
-      if (!ignore) {
-        setRequirementData(result);
-      }
-    });
-    return () => {
-      ignore = true;
+    const fetchData = async () => {
+      const response = await fetch("req-courses.json");
+      const newData = await response.json();
+      setRequirementData(newData);
     };
+    fetchData();
   }, []);
 
   if (data) {
@@ -89,7 +81,6 @@ export function MajorRequirementData() {
     return null;
   }
 }
-
 
 
 
